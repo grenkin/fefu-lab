@@ -258,7 +258,7 @@ if (isset($_GET["from"])) {
 </ul>
 </small>
 
-<p><a href="/feedback" target="_blank">Отзывы и предложения</a></p>
+<p><a href="feedback/index.php" target="_blank">Отзывы и предложения</a></p>
 <p><a href="http://github.com/grenkin/fefu-lab" target="_blank">Разработка</p>
 
 </body>
