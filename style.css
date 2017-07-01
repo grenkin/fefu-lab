@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  font-size: 14pt;
+}
+
+A:link, A:visited { 
+  text-decoration: none;
+  color: #0000dd;
+} 
+A:hover, A:active {
+  text-decoration: none;
+  color: red;
+}
+
+.cm {
+  font-family: cursive;
+  font-size: 12pt;
+  color: #aaaaaa;
+}
