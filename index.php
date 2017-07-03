@@ -21,10 +21,12 @@ function read_blocks($f, &$cnt, &$size)
     if (trim($s) == "")
       break;
     $nums = explode(" ", $s);
-    $size[$cnt] = count($nums);
+    $j = 0;
     for ($i = 0; $i < count($nums); ++$i) {
-      $block[$cnt][$i] = (int)$nums[$i];
+      if (trim($nums[$i]) != "")
+        $block[$cnt][$j++] = (int)$nums[$i];
     }
+    $size[$cnt] = $j;
     ++$cnt;
   }
   return $block;
